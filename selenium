@@ -34,3 +34,18 @@ pswd.send_keys(pwd)
 login= driver.find_element(By.XPATH, '//*[@id="Button1"]').click()
 
 time.sleep(3)
+
+
+
+
+/from selenium import webdriver
+/from selenium.webdriver import webdriver
+
+/from selenium.webdriver.common.by import By
+/import time
+/driver=webdriver.Chrome('C:\DRIVERS\chromedriver_win32\chromedriver.exe')
+
+/driver.get("https://www.hotstar.com/in/explore")
+/
+/driver.find_element_by_id("searchBar").send_keys("movies")
+
